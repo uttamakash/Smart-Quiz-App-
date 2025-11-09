@@ -1,0 +1,32 @@
+name: flutter_project
+description: A Flutter Quiz App with leaderboard, stats, and Firebase authentication support.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI and utility packages
+  google_fonts: ^6.1.0
+  http: ^1.1.0
+  flutter_dotenv: ^6.0.0
+  shared_preferences: ^2.2.3
+  provider: ^6.1.5+1
+
+  # 🔥 Firebase packages added
+  firebase_core: ^3.5.0
+  firebase_auth: ^5.3.0
+  cloud_firestore: ^5.4.4   # optional – for storing user info or leaderboard
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
